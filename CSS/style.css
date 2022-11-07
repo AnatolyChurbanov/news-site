@@ -5,7 +5,7 @@ body {
 
 header {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     height: 400px;
     background-color: #d0d1d3;
@@ -14,9 +14,9 @@ header {
 }
 
 h1 {
-    color: gray;
+    color: #8f7868;
     font-size: 4rem;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .news {
