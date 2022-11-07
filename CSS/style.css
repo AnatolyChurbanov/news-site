@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(201, 154, 120, 0.5);
 }
 
 header {
@@ -9,19 +10,44 @@ header {
     justify-content: center;
     height: 400px;
     background-color: #d0d1d3;
-    background: url('https://images.unsplash.com/photo-1556038024-327f281f00b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80') bottom no-repeat;
+    background: url('https://unsplash.com/photos/jLwVAUtLOAQ/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjF8fGJhY2tncm91bmQlMjB3ZWIlMjBzaXRlfGVufDB8fHx8MTY2Nzc4MzAzNA&force=true&w=1920') bottom no-repeat;
     background-size: cover;
 }
 
 h1 {
-    color: #8f7868;
+    color: #94694a;
     font-size: 4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+}
+
+span {
+    color: #0085a1;
+    text-transform: uppercase;
+}
+
+.new h2:first-of-type:before {
+    content: 'New';
+    padding-right: 10px;
+    color: #0085a1;
+    text-transform: uppercase;
+}
+
+section:nth-child(odd) {
+    background: rgb(148, 105, 74, 0.5);
 }
 
 .news {
-    background-color: #fff;
-    padding: 50px 0 32px;
+    background-color:  rgb(201, 154, 120, 0.03);
+    padding: 50px 16px 32px;
+    width: 800px;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .article {
